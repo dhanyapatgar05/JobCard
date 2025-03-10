@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   background: #f8f9fa;
-  padding: 20px;
+  padding: 10px;
 }
 
 .job-left {
@@ -12,6 +12,15 @@
   padding: 20px;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   font-family: Arial, sans-serif;
+}
+
+.job-header-container,
+.job-description-container {
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
 }
 
 .job-header {
@@ -34,10 +43,11 @@
 }
 
 .job-logo {
-  width: 80px;
+  width: 100px;
   height: 50px;
   margin-left: 210px;
-  
+  border: 1px solid gray;
+  border-radius: 20px;
 }
 
 
@@ -48,14 +58,14 @@
 }
 
 .job-company {
-  font-weight: bold;
+  color: #777883;
 }
 
 .job-rating {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #ff9800;
+  color: #777883;
 }
 
 .star-icon {
@@ -89,7 +99,7 @@
 }
 
 .location-icon {
-  color: #007bff;
+  color: #080808;
   margin-right: 4px;
 }
 
@@ -98,17 +108,13 @@
   align-items: center;
   gap: 5px;
 }
-/* 
-.job-save-icon {
-  width: 16px;
-  height: 16px;
-} */
+
 
 .job-save {
   display: flex;
   align-items: center;
   gap: 5px;
-  color: #007bff;
+  color: #275CF8;
   font-size: 14px;
   text-decoration: none;
 }
@@ -135,6 +141,10 @@
   color: #666;
 }
 
+.job-meta strong{
+  color: black;
+}
+
 .job-actions {
   display: flex;
   gap: 10px;
@@ -144,18 +154,103 @@
 .apply-btn {
   padding: 8px 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 14px;
   cursor: pointer;
 }
 
 .register-btn {
   background-color: white;
-  border: 1px solid #007bff;
-  color: #007bff;
+  border: 1px solid #275CF8;
+  color: #275CF8;
 }
 
 .apply-btn {
-  background-color: #007bff;
+  background-color: #275CF8;
   color: white;
+}
+
+.job-description {
+  margin-top: 20px;
+}
+
+.key-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill {
+  padding: 5px 10px;
+  border: 1px solid rgb(81, 80, 80);
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 20px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.social-icon1 {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Right Side */
+.job-right {
+  width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.suggestion-container{
+  background: #fff;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.job-suggestions h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.job-suggestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestion-text h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.suggestion-text p {
+  font-size: 12px;
+  color: #292929;
+}
+
+.suggestion-logo {
+  width: 70px;
+  height: 50px;
+  margin-left: 210px;
+  border: 1px solid gray;
+  border-radius: 20px;
 }

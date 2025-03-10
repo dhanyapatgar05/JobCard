@@ -3,7 +3,7 @@ import { FaStar, FaFacebookSquare,  FaLinkedin } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { TfiBag } from "react-icons/tfi";
 import { CiLocationOn } from "react-icons/ci";
-import { BsCurrencyRupee } from "react-icons/bs";
+import { BsCurrencyRupee,BsFillHexagonFill  } from "react-icons/bs";
 import "./JobCard.css";
 
 const JobListing = () => {
@@ -111,6 +111,24 @@ const JobListing = () => {
               </div>
               <img src="https://1000logos.net/wp-content/uploads/2022/09/Unacademy-Symbol.png" alt="Company Logo" className="suggestion-logo" />
             </div>
+          </div>
+        </div>
+        {/* Reviews Section */}
+        <div className="job-reviews">
+          <h3>Reviews <a href="#" className="review-link">Read all 1945 reviews</a></h3>
+          <div className="review-item">
+            <h4>Android Developer for 3 months in Bangalore</h4>
+            <p><strong>Anonymous</strong> | 19 Feb 2025</p>
+            <div className="review-rating">
+              <FaStar className="filled-star" />
+              <FaStar className="empty-star" />
+              <FaStar className="empty-star" />
+              <FaStar className="empty-star" />
+              <FaStar className="empty-star" />
+            </div>
+            <h4>Likes</h4>
+            <p>No, work culture is extremely toxic</p>
+            <p className="review-source">Powered by <BsFillHexagonFill /><strong>AmbitionBox</strong></p>
           </div>
         </div>
       </div>
